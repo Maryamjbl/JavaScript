@@ -1,7 +1,7 @@
 //  hardcode
 let name = "John Doe";
 let cons_no = 101;
-let unit = 350;
+let unit = 50;
 let bill = 0;
 
 //  using slab logic or calculations...
