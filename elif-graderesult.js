@@ -16,9 +16,9 @@ let result = "";
 if (grade == "A+") {
   result = "You Scored Distinction";
 } else if (grade == "A") {
-  result = "You Scored First Class";
+  result = "You Scored First Division";
 } else if (grade == "B") {
-  result = "You Scored Second Class";
+  result = "You Scored Second Division";
 } else if (grade == "C") {
   result = "You Failed!";
 } else {
