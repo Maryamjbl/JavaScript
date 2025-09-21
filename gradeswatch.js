@@ -10,7 +10,7 @@ else {
   grade = "C";
 }
 console.log("Percent = " + percent);
-console.log("Grade = " + grade);
+console.log("Grade  =  " + grade);
 
 switch (grade) {
   case "A+":
