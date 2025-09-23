@@ -6,4 +6,4 @@ function printFactorial(n) {
   console.log("Factorial of " + n + " is " + fact);
 }
 
-printFactorial(8);
+printFactorial(5);

@@ -4,4 +4,4 @@ function reverseCount(start) {
   }
 }
 
-reverseCount(15);
+reverseCount(10);

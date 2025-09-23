@@ -6,4 +6,4 @@ function printodds(n) {
   }
 }
 
-printodds(30);
+printodds(20);

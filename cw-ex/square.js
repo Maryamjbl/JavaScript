@@ -4,4 +4,4 @@ function printsquares(n) {
   }
 }
 
-printsquares(10);
+printsquares(5);
