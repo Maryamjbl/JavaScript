@@ -1,7 +1,7 @@
-function reverseCount(start) {
-  for (let i = start; i >= 1; i--) {
+function reversecount(down) {
+  for (let i = down; i >= 1; i--) {
     console.log(i);
   }
 }
 
-reverseCount(10);
+reversecount(10);
