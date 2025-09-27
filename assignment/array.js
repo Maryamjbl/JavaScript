@@ -3,7 +3,6 @@ let fruits = ["Apple", "Banana", "Orange"];
 fruits[1] = "Mango";
 
 fruits.push("Pineapple", "Grapes");
-
 let lastFruit = fruits.pop();
 console.log("Last fruit removed:", lastFruit);
 
