@@ -1,4 +1,4 @@
-let shoppingList = ["Eggs", "Bread", "Butter", "Honey", "Rice"];
+let shoppingList = ["Eggs", "Bread", "Cheese", "Honey", "Rice"];
 
 console.log("Total items:", shoppingList.length);
 

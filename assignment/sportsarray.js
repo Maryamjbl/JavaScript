@@ -1,4 +1,4 @@
-let sports = ["Football", "Badminton", "Tennis", "Cricket"];
+let sports = ["Football", "Badminton", "Rugby", "Cricket"];
 console.log("First sport:", sports[0]);
 let lastSport = sports.slice(sports.length - 1)[0];
 console.log("Last sport:", lastSport);
