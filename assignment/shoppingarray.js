@@ -2,8 +2,9 @@ let shoppingList = ["Eggs", "Bread", "Butter", "Honey", "Rice"];
 
 console.log("Total items:", shoppingList.length);
 
-let Milk = shoppingList.includes("Milk");
-console.log("Is Milk in the list?", Milk);
+let searchGrocery = "Milk";
+let found = shoppingList.includes(searchGrocery);
+console.log(searchGrocery + "  Is Milk present in array? " + found);
 
 shoppingList.unshift("Milk");
 console.log(shoppingList);
