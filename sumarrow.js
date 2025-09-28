@@ -1,10 +1,10 @@
 function add(x, y) {
   let sum = x + y;
-  result = sum;
+  return sum;
 }
 let addarrow = (x, y) => {
   let sum = x + y;
-  result = sum;
+  return sum;
 };
 let x = 10;
 let y = 15;
