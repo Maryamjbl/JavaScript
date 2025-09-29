@@ -1,2 +1,5 @@
-let isEven = (num) => num % 2 === 0;
-console.log(isEven(7));
+let isEven = (num) => {
+  return num % 2 === 0;
+};
+
+console.log(`${isEven(7)}`);

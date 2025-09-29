@@ -1,7 +1,7 @@
-function add(x, y) {
-  let sum = x + y;
-  return sum;
-}
+// function add(x, y) {
+//   let sum = x + y;
+//   return sum;
+// }
 let addarrow = (x, y) => {
   let sum = x + y;
   return sum;

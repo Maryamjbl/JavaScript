@@ -1,2 +1,5 @@
-let greet = (name) => `Hello, ${name}`;
-console.log(greet("John"));
+let greet = (name) => {
+  return `Hello, ${name}!`;
+};
+
+console.log(`${greet("John")}`);
