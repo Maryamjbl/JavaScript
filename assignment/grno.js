@@ -1,5 +1,4 @@
-let findMax = (a, b) => {
-  return a > b ? a : b;
-};
+let findMax = (a, b) => a > b ? a : b;
 
-console.log(`${findMax(10, 20)}`);
+console.log(findMax(10, 20));
+
