@@ -5,4 +5,4 @@ if (age <= 18) {
 } else {
   ticketcost = 200;
 }
-console.log("ticketcost =c" + ticketcost);
+console.log("ticketcost = " + ticketcost);
