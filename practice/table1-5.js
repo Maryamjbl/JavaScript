@@ -1,5 +1,5 @@
 //
-for (let n = 5; n <= 10; n++) {
+for (let n = 1; n <= 5; n++) {
   console.log("Table of " + n);
 
   console.log();

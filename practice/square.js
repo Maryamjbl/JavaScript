@@ -1,7 +1,7 @@
 function printsquares(n){
-  for (let i = 3; i <= n; i++){
-    console.log(`${n}x${i}=${i * i}`);
+  for (let i = 4; i <= n; i++){
+    console.log("Square of " + n + " is "+ i * i);
     
   }
 }
-printsquares(3)
+printsquares(4)
