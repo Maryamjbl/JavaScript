@@ -6,3 +6,4 @@ if (age <= 18) {
   ticketcost = 200;
 }
 console.log("ticketcost = " + ticketcost);
+
