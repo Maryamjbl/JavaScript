@@ -17,7 +17,7 @@ class Course {
     console.log(`Duration - ${this.duration}`);
     console.log(`Fee - ${this.fee}`);
     console.log(`Description - ${this.description}`);
-    console.log("*******************************\n");
+    console.log("*******************************");
   }
 }
 
