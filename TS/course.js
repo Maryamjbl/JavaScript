@@ -1,3 +1,7 @@
-var courses = ["Java", "Python", "MERN"];
-console.log(courses);
-var fullName = "Maryam";
+var course1 = {
+    title: "MERN Stack",
+    description: "MERN Stack using React and Node",
+    duration: 6,
+    fee: 19000,
+};
+console.log(course1);
