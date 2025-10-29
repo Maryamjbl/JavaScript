@@ -5,13 +5,13 @@ type Book = {
   publishedYear: number;
   summary?: string; 
 };
-const bookWithSummary: Book = {
+const bookWithSummaryTS: Book = {
   title: "To Kill a Mockingbird",
   author: "Harper Lee",
   publishedYear: 1960,
   summary: "A novel about racial injustice in the Deep South seen through the eyes of a child."
 };
-const bookWithoutSummary: Book = {
+const bookWithoutSummaryTS: Book = {
   title: "1984",
   author: "George Orwell",
   publishedYear: 1949
@@ -19,7 +19,7 @@ const bookWithoutSummary: Book = {
 console.log("***********************************");
 
 // Task 2
-function printBookDetails(book: Book): void {
+function printBookDetailsTS(book: Book): void {
   console.log(`Title: ${book.title}`);
   console.log(`Author: ${book.author}`);
   console.log(`Published Year: ${book.publishedYear}`);
@@ -28,19 +28,19 @@ function printBookDetails(book: Book): void {
     console.log(`Summary: ${book.summary}`);
   }
 }
-printBookDetails(bookWithSummary);
-printBookDetails(bookWithoutSummary);
+printBookDetailsTS(bookWithSummaryTS);
+printBookDetailsTS(bookWithoutSummaryTS);
 console.log("*****************************");
 
 // Task 3
-let productId: string | number;
+let productIdTS: string | number;
 
-productId = "ABC123";
-displayProductId(productId);
+productIdTS = "ABC123";
+displayProductIdTS(productIdTS);
 
-productId = 456789;
-displayProductId(productId);
-function displayProductId(id: string | number): void {
+productIdTS = 456789;
+displayProductIdTS(productIdTS);
+function displayProductIdTS(id: string | number): void {
   console.log("Product ID: " + id);
 
 }

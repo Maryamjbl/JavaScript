@@ -1,20 +1,20 @@
-let myName: string = "Ali";
-let myAge: number = 22;
-let isStudent: boolean = true;
-console.log(myName, myAge, isStudent);
+let myNameTS: string = "Ali";
+let myAgeTS: number = 22;
+let isStudentTS: boolean = true;
+console.log(myNameTS, myAgeTS, isStudentTS);
 
-function greetUser(name: string): string {
+function greetUserTS(name: string): string {
   return `Hello ,${name} `;
 }
-let greet = greetUser("Aysha");
+let greetTS = greetUser("Aysha");
 console.log(greet);
 
-let colors: string[] = ["Red", "Blue", "Green"];
+let colorsTS: string[] = ["Red", "Blue", "Green"];
 for (let j = 0; j < colors.length; j++) {
   console.log(colors[j]);
 }
 
-function factorial(n: number): number {
+function factorialTS(n: number): number {
   if (n <= 1) {
     return 1;
   }
@@ -26,7 +26,7 @@ function factorial(n: number): number {
 }
 console.log(factorial(5));
 
-function isEven(n: number): boolean {
+function isEvenTS(n: number): boolean {
   if (n < 0) {
     console.log(" Enter a positive number.");
     return false;
@@ -37,7 +37,7 @@ function isEven(n: number): boolean {
 console.log(isEven(7));
 console.log(isEven(8));
 
-function sumArray(numbers: number[]): number {
+function sumArrayTS(numbers: number[]): number {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum = sum + numbers[i];
@@ -45,3 +45,4 @@ function sumArray(numbers: number[]): number {
   return sum;
 }
 console.log(sumArray([1, 2, 3, 4, 5]));
+

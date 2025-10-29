@@ -1,5 +1,5 @@
 // TASK ONE
-class Book {
+class BookTS {
   title: string;
   author: string;
   year: number;
@@ -17,13 +17,13 @@ class Book {
   }
 }
 
-const book1 = new Book(
+const book1TS = new Book(
   "The Alchemist",
   "Paulo Coelho",
   1988,
   "A story about following dreams."
 );
-const book2 = new Book(
+const book2TS = new Book(
   "Charlotte's Web",
   "E.B. White",
   1952,
@@ -34,7 +34,7 @@ book1.printDetails();
 book2.printDetails();
 
 // TASK TWO
-class Student {
+class StudentTS {
   name: string;
   age: number;
   grade: string;
@@ -52,8 +52,8 @@ class Student {
   }
 }
 
-const student1 =  new Student("Aysha", 16, "A");
-const student2 = new Student("Rahul", 15, "B+");
+const student1TS =  new Student("Aysha", 16, "A");
+const student2TS = new Student("Rahul", 15, "B+");
 
 student1.displayInfo();
 student2.displayInfo();

@@ -1,4 +1,5 @@
 var myName = "Ali";
+myName = 21;
 var myAge = 22;
 var isStudent = true;
 console.log(myName, myAge, isStudent);
