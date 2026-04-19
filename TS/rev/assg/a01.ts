@@ -18,7 +18,7 @@ function celsiusToFahrenheit(celsius: number): number {
     return celsius * 9/5 + 32;
 }
 let fahrenheit:number = celsiusToFahrenheit(25);
-console.log(`Temperature in Fahrenheit = ${fahrenheit}`);
+console.log("Temperature in Fahrenheit =",fahrenheit);
 
 // Problem 4: Check Even Number
 function isEven(num:number) : boolean {
