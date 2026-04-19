@@ -1,21 +1,21 @@
+"use strict";
 // Problem 1 : Perimeter Of a Rectangle 
 function perimOfRectangle(length: number, breadth: number): number {
     return 2 * (length + breadth);
 }
-
-let perimeter:number = perimOfRectangle(10,5);
+let perimeter = perimOfRectangle(10, 5);
 console.log("The perimeter of the rectangle is:", perimeter);
 
 // Problem 2: Square of a Number
 function squareOfNumber(num: number): number {
     return num * num;
 }
-let square:number = squareOfNumber(7);
+let square = squareOfNumber(7);
 console.log("Square of the number 7 is :", square);
 
 // Problem 3: Celsius to Fahrenheit Conversion
 function celsiusToFahrenheit(celsius: number): number {
-    return celsius * 9/5 + 32;
+    return celsius * 1.8 + 32;
 }
 let fahrenheit:number = celsiusToFahrenheit(25);
 console.log("Temperature in Fahrenheit =",fahrenheit);
