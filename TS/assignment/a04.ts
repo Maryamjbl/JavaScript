@@ -1,20 +1,21 @@
-// Task One 
+// Task One
 type Book = {
   title: string;
   author: string;
   publishedYear: number;
-  summary?: string; 
+  summary?: string;
 };
 const bookWithSummaryTS: Book = {
   title: "To Kill a Mockingbird",
   author: "Harper Lee",
   publishedYear: 1960,
-  summary: "A novel about racial injustice in the Deep South seen through the eyes of a child."
+  summary:
+    "A novel about racial injustice in the Deep South seen through the eyes of a child.",
 };
 const bookWithoutSummaryTS: Book = {
   title: "1984",
   author: "George Orwell",
-  publishedYear: 1949
+  publishedYear: 1949,
 };
 console.log("***********************************");
 
@@ -23,7 +24,7 @@ function printBookDetailsTS(book: Book): void {
   console.log(`Title: ${book.title}`);
   console.log(`Author: ${book.author}`);
   console.log(`Published Year: ${book.publishedYear}`);
-  
+
   if (book.summary) {
     console.log(`Summary: ${book.summary}`);
   }
@@ -42,5 +43,4 @@ productIdTS = 456789;
 displayProductIdTS(productIdTS);
 function displayProductIdTS(id: string | number): void {
   console.log("Product ID: " + id);
-
 }
