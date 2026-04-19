@@ -1,7 +1,8 @@
-let x: number = 123;
+let x: number = 90;
 console.log(x);
 
 let title:string = "Future Leaders Academy";
+console.log(title);
 
 let isMember: boolean = true;
 isMember = false;
@@ -18,8 +19,5 @@ function calculateArea(l:number, b:number) : number {
 }
 
 let area:number = calculateArea(10,5);
-console.log("Area is :", area);
-
-
-
+console.log("Area of the rectangle is:", area);
 
