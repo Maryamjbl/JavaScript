@@ -18,6 +18,9 @@ function calculateArea(l:number, b:number) : number {
     return result;
 }
 
-let area:number = calculateArea(10,5);
+let area: number = calculateArea(10,5);
 console.log("Area of the rectangle is:", area);
+
+let firstArea: number = calculateArea(10, 5);
+let secondArea: number = calculateArea(20, 10);
 

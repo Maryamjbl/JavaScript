@@ -14,9 +14,10 @@ class Car {
   }
 }
 
-let myCar = new Car("Toyota", "Corolla", "2025");
+let myCar = new Car("Toyota", "Corolla", 2025);
 
 myCar.displayDetails();
 
-let car2 = new Car("Renault", "Triber", "2024");
+let car2 = new Car("Renault", "Triber", 2024);
 car2.displayDetails();
+ 

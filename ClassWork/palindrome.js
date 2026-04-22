@@ -14,5 +14,6 @@ console.log("Reverse =" + reverse);
 if (ncopy === reverse) {
   console.log("It is a Palindrome");
 } else {
-  console.log("It is not a Palindrome");
+  console.log("It is not a Palindrome"); 
 }
+// PALINDROME 
