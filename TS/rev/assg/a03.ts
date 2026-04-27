@@ -17,7 +17,7 @@ let student1: newStudent = {
 
 console.log(student1);
 
-//  Problem : 2
+//  Problem : 2n
 console.log("PROBLEM : 2");
 
 let student2: newStudent = {
