@@ -9,3 +9,5 @@ let y: number = 78;
 
 console.log(x == y); 
 console.log(x=== y); 
+ 
+function 
